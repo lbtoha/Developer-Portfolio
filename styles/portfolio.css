@@ -48,3 +48,10 @@ nav ul li {
   margin-left: 51px;
   font-size: 20px;
 }
+
+/* Banner Section style */
+.banner {
+  display: flex;
+  margin: 0 0 0 230px;
+  align-items: center;
+}
