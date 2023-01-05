@@ -49,9 +49,47 @@ nav ul li {
   font-size: 20px;
 }
 
+header {
+  background: url("../images/developer.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left, bottom right;
+  background-color: #fff8f3;
+}
+
 /* Banner Section style */
 .banner {
   display: flex;
-  margin: 0 0 0 230px;
+  margin: 0 200px;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 47px;
+}
+
+.banner .banner-left {
+}
+
+.banner h3 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  color: #474747;
+}
+
+.banner h1 {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  color: #181818;
+}
+
+.banner p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-top: 20px;
+}
+
+.banner img {
+  margin-right: -170px;
 }
