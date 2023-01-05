@@ -12,6 +12,10 @@
   color: #fd6e0a;
 }
 
+.primary-bg {
+  background-color: #fff8f3;
+}
+
 .btn-primary {
   background-color: #fd6e0a;
   border: none;
@@ -92,4 +96,14 @@ header {
 
 .banner img {
   margin-right: -170px;
+}
+
+/* main Section design */
+main {
+  margin: 0 230px;
+}
+
+/* About Section */
+.about-inner {
+  padding: 131px 156px;
 }
